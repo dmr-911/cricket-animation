@@ -30,7 +30,7 @@
     position: relative;
     width: 150px;
     height: 300px;
-    top: 210px;
+    top: 250px;
 }
 .wicket img{
     width: 250px;
@@ -41,7 +41,7 @@
     height: 300px;
     position: relative;
     float: right;
-    bottom: 200px;
+    top: 100px;
     transition: transform .5s ease-out;
 }
 .bat img{
@@ -54,9 +54,9 @@
     transform-origin: top right;
 }
 .bowling-area{
-    width: 840px;
+    width: 700px;
     position: relative;
-    left: 90px;
+    left: 200px;
 }
 .ball{
     width: 40px;
