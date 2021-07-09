@@ -21,6 +21,9 @@
     border: 3px solid;
     display: flex;
     overflow: hidden;
+    background-image: url(../images/field.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .batting-area{
     position: relative;
