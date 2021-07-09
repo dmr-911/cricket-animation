@@ -1,0 +1,20 @@
+.para{
+    width: 100px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 2px solid salmon;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    overflow-y: scroll;
+}
+#box1{
+    border: 2px solid red;
+}
+#box2{
+    border: 2px solid blue;
+ 
+}

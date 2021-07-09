@@ -1,0 +1,69 @@
+@keyframes bowling {
+    0%{
+        top: 90px;
+        right: 0;
+    }
+    30%{
+        top:440px;
+        right: 700px;
+    }
+    40%{
+        top: 398px;
+        right: 810px;
+    }
+    70%, 100%{
+        top: 0px;
+        right: 200px;
+    }
+}
+.field{
+    height: 600px;
+    border: 3px solid;
+    display: flex;
+    overflow: hidden;
+}
+.bat{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    transition: transform .5s ease-out;
+}
+img{
+    width: 380px;
+    height: 290px;
+    
+}
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+.bowling-area{
+    width: 850px;
+    position: relative;
+    left: 90px;
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: red;
+    position: relative;
+    float: right;
+    top: 90px;
+    /* top: 308px; */
+}
+.field:hover .ball{
+    animation: bowling 1s ease-in-out alternate;
+    animation-play-state: running;
+}
+.stump{
+    float: right;
+    position: relative;
+    width: 150px;
+    height: 300px;
+    top: 210px;
+}
+.stump img{
+    width: 200px;
+}
