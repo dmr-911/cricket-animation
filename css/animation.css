@@ -66,19 +66,8 @@
     position: relative;
     float: right;
     top: 90px;
-    /* top: 308px; */
 }
 .field:hover .ball{
     animation: bowling 1s ease-in-out alternate;
     animation-play-state: running;
 }
-/* .stump{
-    float: right;
-    position: relative;
-    width: 150px;
-    height: 300px;
-    top: 210px;
-}
-.stump img{
-    width: 200px;
-} */
