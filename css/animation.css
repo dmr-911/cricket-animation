@@ -22,14 +22,29 @@
     display: flex;
     overflow: hidden;
 }
+.batting-area{
+    position: relative;
+}
+.wicket{
+    float: left;
+    position: relative;
+    width: 150px;
+    height: 300px;
+    top: 210px;
+}
+.wicket img{
+    width: 250px;
+    height: 300px;
+}
 .bat{
     width: 400px;
     height: 300px;
     position: relative;
-    top: 100px;
+    float: right;
+    bottom: 200px;
     transition: transform .5s ease-out;
 }
-img{
+.bat img{
     width: 380px;
     height: 290px;
     
@@ -39,7 +54,7 @@ img{
     transform-origin: top right;
 }
 .bowling-area{
-    width: 850px;
+    width: 840px;
     position: relative;
     left: 90px;
 }
@@ -57,7 +72,7 @@ img{
     animation: bowling 1s ease-in-out alternate;
     animation-play-state: running;
 }
-.stump{
+/* .stump{
     float: right;
     position: relative;
     width: 150px;
@@ -66,4 +81,4 @@ img{
 }
 .stump img{
     width: 200px;
-}
+} */
